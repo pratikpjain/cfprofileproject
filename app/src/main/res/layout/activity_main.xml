@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="106dp"
+        android:layout_height="61dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="go"
+        android:text="GO"
+        android:textColor="#100707"
+        android:textSize="24sp"
+        app:backgroundTint="#7E7D78"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <EditText
+        android:id="@+id/handle"
+        android:layout_width="297dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Enter Your handle"
+        android:inputType="textPersonName"
+        android:textColor="#0027B3"
+        android:textColorHint="#938C8C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <TextView
+        android:id="@+id/errmsg"
+        android:layout_width="310dp"
+        android:layout_height="39dp"
+        android:textColor="#E11212"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Made by: Pratik Jain"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

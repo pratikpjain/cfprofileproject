@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D6D6"
+    tools:context=".latestSolved">
+
+    <TextView
+        android:id="@+id/Q1"
+        android:layout_width="329dp"
+        android:layout_height="71dp"
+        android:background="#D8D6D6"
+        android:onClick="findQ1"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#F1F1F1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <TextView
+        android:id="@+id/Q5"
+        android:layout_width="329dp"
+        android:layout_height="71dp"
+        android:background="#D8D6D6"
+        android:onClick="findQ5"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#F1F1F1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="329dp"
+        android:layout_height="71dp"
+        android:background="#D8D6D6"
+        android:onClick="findQ3"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#F1F1F1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <TextView
+        android:id="@+id/Q4"
+        android:layout_width="329dp"
+        android:layout_height="71dp"
+        android:background="#D8D6D6"
+        android:onClick="findQ4"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#F1F1F1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/Q2"
+        android:layout_width="329dp"
+        android:layout_height="71dp"
+        android:background="#D8D6D6"
+        android:onClick="findQ2"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#F1F1F1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/warn"
+        android:layout_width="351dp"
+        android:layout_height="76dp"
+        android:background="#1C49D1"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:text="GYM submissions are not included"
+        android:textColor="#E8E7E8"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
